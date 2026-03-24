@@ -1,11 +1,9 @@
 import "./App.css";
+import Header from "./components/Header";
+import MainLayout from "./components/MainLayout";
 
 function App() {
-    return (
-        <>
-            <h1>Task board brotherrrrrr</h1>
-        </>
-    );
+    return <MainLayout />;
 }
 
 export default App;
