@@ -1,12 +1,12 @@
-import React from 'react'
+import React from "react";
 
-function StatCard({title,count}) {
+function StatCard({ title, count }) {
   return (
-                <article class="stat-card">
-                    <span class="stat-label">{title}</span>
-                    <strong class="stat-value">{count}</strong>
-                </article>
-  )
+    <article className="stat-card">
+      <span className="stat-label">{title}</span>
+      <strong className="stat-value">{count}</strong>
+    </article>
+  );
 }
 
-export default StatCard
+export default StatCard;
